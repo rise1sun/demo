@@ -29,6 +29,7 @@ public class Swagger2Config {
 //                .apis(RequestHandlerSelectors.withMethodAnnotation(ApiOperation.class))
                 .paths(PathSelectors.any())
                 .build();
+        //test
     }
 
     private ApiInfo apiInfo() {
