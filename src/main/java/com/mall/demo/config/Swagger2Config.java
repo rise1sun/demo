@@ -29,14 +29,13 @@ public class Swagger2Config {
 //                .apis(RequestHandlerSelectors.withMethodAnnotation(ApiOperation.class))
                 .paths(PathSelectors.any())
                 .build();
-        //test
     }
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("SwaggerUI演示")
                 .description("demo")
-                .contact("macro")
+                .contact("jiangfeng")
                 .version("1.0")
                 .build();
     }
