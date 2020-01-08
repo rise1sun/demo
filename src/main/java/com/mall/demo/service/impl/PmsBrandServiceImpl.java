@@ -1,6 +1,5 @@
 package com.mall.demo.service.impl;
 
-
 import com.github.pagehelper.PageHelper;
 import com.mall.demo.mbg.mapper.PmsBrandMapper;
 import com.mall.demo.mbg.model.PmsBrand;

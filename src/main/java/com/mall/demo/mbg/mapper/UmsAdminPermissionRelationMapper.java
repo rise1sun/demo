@@ -2,10 +2,14 @@ package com.mall.demo.mbg.mapper;
 
 import com.mall.demo.mbg.model.UmsAdminPermissionRelation;
 import com.mall.demo.mbg.model.UmsAdminPermissionRelationExample;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
+import java.util.List;
+
 public interface UmsAdminPermissionRelationMapper {
+
+
+
     long countByExample(UmsAdminPermissionRelationExample example);
 
     int deleteByExample(UmsAdminPermissionRelationExample example);

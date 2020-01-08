@@ -16,6 +16,7 @@ import java.util.Random;
  */
 @Service
 public class UmsMemberServiceImpl implements UmsMemberService {
+
     @Autowired
     private RedisService redisService;
     @Value("${redis.key.prefix.authCode}")

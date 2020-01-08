@@ -1,8 +1,8 @@
 package com.mall.demo.service.impl;
 
+
 import com.mall.demo.common.utils.JwtTokenUtil;
 import com.mall.demo.dao.UmsAdminRoleRelationDao;
-import com.mall.demo.dto.UmsAdminLoginParam;
 import com.mall.demo.mbg.mapper.UmsAdminMapper;
 import com.mall.demo.mbg.model.UmsAdmin;
 import com.mall.demo.mbg.model.UmsAdminExample;
@@ -13,7 +13,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.AuthenticationException;
@@ -22,6 +21,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+
 
 import java.util.Date;
 import java.util.List;

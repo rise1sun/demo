@@ -1,5 +1,6 @@
 package com.mall.demo.dto;
 
+
 import com.mall.demo.mbg.model.UmsAdmin;
 import com.mall.demo.mbg.model.UmsPermission;
 import org.springframework.security.core.GrantedAuthority;
