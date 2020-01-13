@@ -98,6 +98,26 @@
             <artifactId>jjwt</artifactId>
             <version>0.9.0</version>
         </dependency>
+        <!--整合elasticsearch-->
+        <!--spring整合elasticsearch包-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+        </dependency>
+
+        <!--实体工具包-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
+        <!--集合工具包-->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>19.0</version>
+        </dependency>
+
 
     </dependencies>
 
